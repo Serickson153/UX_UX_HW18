@@ -1,15 +1,17 @@
-*{
+* {
     box-sizing: border-box;
     border-color: black;
     margin: 0;
     padding: 0;
 }
-.headerBar{
+
+.headerBar {
     align-items: center;
     width: 100%;
     height: 110px;
 }
-.headerNav{
+
+.headerNav {
     font-family: "Noto Sans JP", sans-serif;
     font-optical-sizing: auto;
     font-weight: 350;
@@ -19,7 +21,8 @@
     border: 1px solid black;
 
 }
-.headerNav{
+
+.headerNav {
     color: #FFFFFF;
     display: flex;
     width: 100%;
@@ -30,19 +33,21 @@
     padding-left: 20%;
     padding-right: 20%;
 }
-.greetingCard{
+
+.greetingCard {
     background-color: #FFFFFF;
     height: 477px, auto;
-    width: 25%;
+    width: 40%;
     padding: 1%;
     position: relative;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 257px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 257px;
 }
-#resumeButton{
+
+#resumeButton {
     font-family: "Roboto", sans-serif;
-    font-weight: 250;
+    font-weight: bold;
     font-optical-sizing: auto;
     font-style: normal;
     font-size: 30px;
@@ -52,27 +57,30 @@
     background-color: #202020;
     margin-bottom: 10%;
 }
-#heroP{
+
+#heroP {
     font-size: 35px;
 }
-.heroText{
+
+.heroText {
     text-align: center;
     max-width: 80%;
     margin-left: auto;
     margin-right: auto;
     font-size: 32px;
 }
-h1{
+
+h1 {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: bold;
     font-style: normal;
     font-variation-settings:
-      "slnt" 0;
+        "slnt" 0;
     padding: 5%;
 }
 
-#heroImage{
+#heroImage {
     max-width: 80%;
     height: auto;
     position: relative;
@@ -80,109 +88,147 @@ h1{
     margin-right: auto;
     margin-top: 10%;
 }
-.skillsColumn{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin: 0;
 
+.skillsColumn {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 50rem);
+    justify-content: center;
 }
-.skillsSection{
+
+.research{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.prototyping{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.userTesting{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.skillsImages{
+    display: block;
+    margin: auto;
+    width: 400px;
+    height: auto;
+}
+
+
+.skillsSection {
     margin-top: 250px;
 }
 
-.skillsText{
-    max-width: 260px;
+.skillsText {
     text-align: center;
+    padding-bottom: 125px;
+
 }
-.skillsSection{
+
+.skillsSection {
     background-color: #FFFFFF;
     padding-bottom: 8%;
 }
-h2{
+
+h2 {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 45px;
+    padding-top: 30px;
+    padding-bottom: 60px;
 }
 
-.skillsImages{
-    display: flex;
-    justify-content: center;
-    max-width: 150%;
-    height: auto;
-}
-p{
+p {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 40px;
 }
-#skillsHeader{
+
+#skillsHeader {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 50px;
 }
-.myskillsHeader{
+
+.myskillsHeader {
     padding-left: 8%;
     padding-top: 4.5%;
     padding-bottom: 8%;
 }
-.myworkHeader{
+
+.myworkHeader {
     text-align: center;
     padding-top: 8%;
     padding-bottom: 12%;
 }
-.myworkColumns{
+
+.myworkColumns {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-evenly;
 }
-.nasa{
+
+.nasa {
     display: flex;
     align-items: center;
 }
-.gr8Dlz{
+
+.gr8Dlz {
     display: flex;
     align-items: center;
 }
-.motleyZoo{
+
+.motleyZoo {
     display: flex;
     align-items: center;
     padding-bottom: 25%;
 }
-.nasa, .gr8Dlz, .motleyZoo{
+
+.nasa,
+.gr8Dlz,
+.motleyZoo {
     padding-bottom: 5%;
     padding-right: 5%;
 }
-.gr8Dlzpng{
+
+.gr8Dlzpng {
     padding-right: 10%;
     max-width: 25%;
     height: auto;
 }
-.motleyZoopng{
+
+.motleyZoopng {
     max-width: 35%;
     height: auto;
 }
-.nasapng{
+
+.nasapng {
     float: right;
     max-width: 35%;
     height: auto;
 }
-.myworkSection{
+
+.myworkSection {
     padding-bottom: 10%;
 }
-.myworkText{
+
+.myworkText {
     text-align: center;
     max-width: 45%;
     margin-right: auto;
     margin-left: 2%;
 }
-.nonprofitButton{
+
+.nonprofitButton {
     font-family: "Roboto", sans-serif;
-    font-weight: 250;
+    font-weight: bold;
     font-style: normal;
     font-size: 30px;
     margin-top: 10%;
@@ -191,6 +237,6 @@ p{
     background-color: #202020;
 }
 
-footer{
+footer {
     margin-top: auto;
 }
