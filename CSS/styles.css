@@ -67,7 +67,7 @@
     max-width: 80%;
     margin-left: auto;
     margin-right: auto;
-    font-size: 32px;
+    font-size: 1vw;
 }
 
 h1 {
@@ -78,6 +78,7 @@ h1 {
     font-variation-settings:
         "slnt" 0;
     padding: 5%;
+    font-size: 3vw;
 }
 
 #heroImage {
@@ -91,7 +92,7 @@ h1 {
 
 .skillsColumn {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 50rem);
+    grid-template-columns: repeat(auto-fit, 30rem);
     justify-content: center;
 }
 
@@ -113,7 +114,7 @@ h1 {
 .skillsImages{
     display: block;
     margin: auto;
-    width: 400px;
+    width: 250px;
     height: auto;
 }
 
@@ -137,7 +138,7 @@ h2 {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 45px;
+    font-size: 2vw;
     padding-top: 30px;
     padding-bottom: 60px;
 }
@@ -146,7 +147,7 @@ p {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 40px;
+    font-size: 1.7vw;
 }
 
 #skillsHeader {
