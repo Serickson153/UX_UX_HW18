@@ -50,7 +50,7 @@
     font-weight: bold;
     font-optical-sizing: auto;
     font-style: normal;
-    font-size: 30px;
+    font-size: 2vw;
     margin-top: 10%;
     padding: 3%;
     color: #FFFFFF;
@@ -59,7 +59,7 @@
 }
 
 #heroP {
-    font-size: 35px;
+    font-size: 1.7vw;
 }
 
 .heroText {
@@ -231,7 +231,7 @@ p {
     font-family: "Roboto", sans-serif;
     font-weight: bold;
     font-style: normal;
-    font-size: 30px;
+    font-size: 2vw;
     margin-top: 10%;
     padding: 2%;
     color: #FFFFFF;
