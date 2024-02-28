@@ -16,7 +16,7 @@
     font-optical-sizing: auto;
     font-weight: 350;
     font-style: normal;
-    font-size: 30px;
+    font-size: 2.5vw;
     background-color: #202020;
     border: 1px solid black;
 
@@ -59,7 +59,7 @@
 }
 
 #heroP {
-    font-size: 1.7vw;
+    font-size: 1.5vw;
 }
 
 .heroText {
@@ -67,7 +67,7 @@
     max-width: 80%;
     margin-left: auto;
     margin-right: auto;
-    font-size: 1vw;
+    font-size: 2vw;
 }
 
 h1 {
@@ -78,7 +78,7 @@ h1 {
     font-variation-settings:
         "slnt" 0;
     padding: 5%;
-    font-size: 3vw;
+    font-size: 10vw;
 }
 
 #heroImage {
@@ -138,7 +138,7 @@ h2 {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 2vw;
+    font-size: 2.5vw;
     padding-top: 30px;
     padding-bottom: 60px;
 }
@@ -147,7 +147,7 @@ p {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.7vw;
+    font-size: 2vw;
 }
 
 #skillsHeader {
